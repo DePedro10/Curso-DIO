@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="IFSP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-09 07:48:58 "/>
+        <attribute name="created" value="SUZTUDtERVNLVE9QLVNFT0kwME47MjAyMi0wMS0wOTsiMDc6NDQ6MTMgIjsyNTU3"/>
+        <attribute name="edited" value="SUZTUDtERVNLVE9QLVNFT0kwME47MjAyMi0wMS0wOTsiMDc6NDg6NTggIjsxOzI2Nzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="1"/>
+            <assign variable="b" expression="2"/>
+            <assign variable="c" expression="3"/>
+        </body>
+    </function>
+</flowgorithm>

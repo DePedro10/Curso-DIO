@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="IFSP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-09 08:10:27 "/>
+        <attribute name="created" value="SUZTUDtERVNLVE9QLVNFT0kwME47MjAyMi0wMS0wOTsiMDc6NTQ6MTUgIjsyNTYw"/>
+        <attribute name="edited" value="SUZTUDtERVNLVE9QLVNFT0kwME47MjAyMi0wMS0wOTsiMDg6MTA6MjcgIjsxOzI2NjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="Ncartao" type="String" array="False" size=""/>
+            <input variable="Cliente"/>
+            <input variable="cartao"/>
+            <if expression="cartao">
+                <then>
+                    <input variable="Ncartao"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelimente n&#227;o dispomos dessa modalidade de pagamento&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
