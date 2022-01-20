@@ -4,16 +4,16 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="IFSP"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-01-10 05:05:50 "/>
+        <attribute name="saved" value="2022-01-20 05:42:39 "/>
         <attribute name="created" value="SUZTUDtERVNLVE9QLVNFT0kwME47MjAyMi0wMS0xMDsiMDM6NDg6NDYgIjsyNTU1"/>
-        <attribute name="edited" value="SUZTUDtERVNLVE9QLVNFT0kwME47MjAyMi0wMS0xMDsiMDU6MDU6NTAgIjsxOzI2NTM="/>
+        <attribute name="edited" value="SUZTUDtERVNLVE9QLVNFT0kwME47MjAyMi0wMS0yMDsiMDU6NDI6MzkgIjszOzI2NjQ="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="numero, limite" type="Integer" array="False" size=""/>
             <assign variable="numero" expression="0"/>
-            <assign variable="limite" expression="10"/>
+            <assign variable="limite" expression="20"/>
             <while expression="numero&lt;=limite">
                 <output expression="&quot;9 x &quot; &amp; numero &amp; &quot; = &quot; &amp; 9*numero" newline="True"/>
                 <assign variable="numero" expression="numero+1"/>
